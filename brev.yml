@@ -1,0 +1,6 @@
+version: '2021.03.1'
+services:
+  - name: 'hello-brev'
+    runtime: 'python3'
+    handler: 'main.handler'
+    type: 'http'
