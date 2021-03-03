@@ -1,3 +1,5 @@
+import messager
+
 def handler(request):
-    return "Hello from Python!"
+    return messager.get()
 
