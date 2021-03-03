@@ -1,4 +1,4 @@
-import numpy as np
+import psutil
 
 def get():
-    return "Hello from Numpy! " + np.array[2,3,4])
+    return "Hello from Numpy! " + psutil.cpu_times()
