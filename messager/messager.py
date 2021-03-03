@@ -1,2 +1,4 @@
+import numpy as np
+
 def get():
-    return "Hello from Python 3!"
+    return "Hello from Numpy! " + np.array[2,3,4])
